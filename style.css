@@ -3,7 +3,13 @@ Color: red;
 text-align: center;
 
 }
-h2 {text-align: center;
-    
+h2 {text-align: center;  
+
+}
+body {background-color: cadetblue;
+border-style: inset;
+border-width: 10px;
+}
+
 
 }
