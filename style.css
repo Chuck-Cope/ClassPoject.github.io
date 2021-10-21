@@ -9,7 +9,20 @@ h2 {text-align: center;
 body {background-color: cadetblue;
 border-style: inset;
 border-width: 10px;
+text-align:center
+}
+header{
+text-align:right;
+font-size: 15px;
+
+}
+nav a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-transform: uppercase;
 }
 
-
+nav a:hover {
+    background-color: #ddd;
+    color: black;
 }
