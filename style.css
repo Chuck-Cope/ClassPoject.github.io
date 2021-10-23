@@ -23,29 +23,11 @@ padding-left: 30px;
 padding-right: 30px;
 padding-top: 15px;
 padding-bottom: 15px;
-* {
-    box-sizing: border-box;
- }
- .col {
-    color: white;
-    float: left;
-    width: 25%;
-    padding: 10px;
- }
- .colContainer:after {
-    content: "";
-    display: table;
-    clear: both;
- }
- @media screen and (max-width: 900px) {
-    .col {
-       width: 50%;
-    }
- }
- @media screen and (max-width: 600px) {
-    .col {
-       width: 100%;
-    }
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 }
 picture {
     text-align: center;
