@@ -2,8 +2,8 @@
 Charles Cope
 10/21/2021
 Styling for school project web page
+10/23/2021, added styles for centering picture(h5) and other items
 */
-
 
 h1 {
 Color: red;
@@ -16,16 +16,19 @@ h2 {text-align: center;
 body {background-color: cadetblue;
 border-style: inset;
 border-width: 10px;
-text-align:center;
+
 margin: 15px;
-margin-bottom: 5px;
+margin-bottom: 0px;
 padding-left: 30px;
 padding-right: 30px;
 padding-top: 15px;
 padding-bottom: 15px;
 }
+picture {
+    text-align: center;
+}
 header{
-text-align:right;
+text-align: center;
 font-size: 15px;
 
 }
@@ -41,5 +44,17 @@ nav a:hover {
 }
 p {
 font-size: 120%;
+text-align: center;
+column-count: auto;
+justify-content: center;
+}
+
+h5{
+text-align: center;
 
 }
+
+footer{
+    text-align: center;
+}
+
