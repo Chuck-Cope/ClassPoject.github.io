@@ -23,14 +23,12 @@ padding-left: 30px;
 padding-right: 30px;
 padding-top: 15px;
 padding-bottom: 15px;
+
+}
 img {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
-}
-}
-picture {
-    text-align: center;
 }
 header{
 text-align: center;
