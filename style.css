@@ -63,10 +63,15 @@ footer{
     border-top-style: outset;
     padding-top: 15px;
 padding-bottom: 0px;
-    
+    position: relative;
+    bottom: 0em;
 }
-
-
+tr {
+    text-align: center;
+}
+td{
+    text-align: center;
+}
 .container {
     height: 200px;
     position: relative;
@@ -79,5 +84,5 @@ padding-bottom: 0px;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+    transform: translate(-50%, -50%);}
+ 
