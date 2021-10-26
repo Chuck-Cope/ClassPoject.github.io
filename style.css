@@ -3,6 +3,7 @@ Charles Cope
 10/21/2021
 Styling for school project web page
 10/23/2021, added styles for centering picture(h5) and other items
+10/26/2021, added for table
 */
 
 h1 {
@@ -60,3 +61,19 @@ text-align: center;
 footer{
     text-align: center;
 }
+
+
+.container {
+    height: 200px;
+    position: relative;
+    
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
